@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>Student Details Table</title>
+    <style>
+        table {
+            background-color: yellow;
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 60%;
+            margin: 30px auto;
+        }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        th, td, tr {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2c200; /* slightly different yellow for contrast */
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aarav Sharma</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Diya Mehta</td>
+                <td>21</td>
+                <td>Information Technology</td>
+            </tr>
+            <tr>
+                <td>Rohan Patel</td>
+                <td>22</td>
+                <td>Electronics</td>
+            </tr>
+            <tr>
+                <td>Sneha Rao</td>
+                <td>19</td>
+                <td>Mechanical</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
-
 </html>
